@@ -52,6 +52,7 @@ body {
 
 /*getting-part*/
 .getting-part{
+    position: relative;
     height: 1190px;
     background: url(src/imgs/getting-bcg.png) no-repeat #eae2d1;
     background-size: cover;
@@ -131,6 +132,99 @@ body {
 }
 #active-btn-tagline{
     background-color: #ffffff;
+}
+
+/*menu*/
+.wrapper-menu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.9;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 210px 0 0 350px;
+}
+.menu > li {
+    font-family: Raleway-bold, sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #bebcb8;
+    list-style: none;
+}
+.menu > li:not(:first-child){
+    margin-top: 25px;
+}
+.menu > li:hover{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.home-menu{
+    width: 9%;
+}
+.about-menu{
+    width: 16%;
+}
+.categories-menu{
+    width: 19%;
+}
+.gallery-menu{
+    width: 13.5%;
+}
+.events-menu{
+    width: 11.8%;
+}
+.blog-menu{
+    width: 8%;
+}
+.contact-menu{
+    width: 19.5%;
+}
+.btn-close-menu{
+    position: absolute;
+    top: 1%;
+    right: 14%;
+    font-family: Raleway-regular, sans-serif;
+    color:#ffffff;
+}
+.btn-close-menu:hover{
+ 
+}
+.btn-close-menu p{
+    margin: 0;
+    padding: 0;
+}
+.btn-close-menu p:first-child{
+    font-size: 50px;
+    text-align: center;
+}
+.btn-close-menu p:last-child{
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.toggler{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 5%;
+    right: 12.25%;
+    z-index: 0;
+    opacity: 0;
+}
+.toggler:hover{
+    cursor: pointer;
+}
+.toggler:checked{
+    top: 1.5%;
+    right: 13.5%;
+    z-index: 1;
+}
+.toggler:checked ~ .wrapper-menu{
+    display: block;
 }
 
 /*description*/
@@ -569,6 +663,10 @@ div#active-btn-quote{
     padding: 0 25px;
     margin-top: 40px;
 }
+.input-email-subscribe:focus{
+    outline: 0.5px solid #bebcb8;
+    outline-offset: 0;
+}
 .btn-submit-subscribe{
     width: 85px;
     font-size: 19px;
@@ -596,6 +694,7 @@ div#active-btn-quote{
 }
 .wrapper-social-media{
     display: flex;
+    position: relative;
 }
 .fb-media{
     width: 28px;
@@ -651,4 +750,24 @@ div#active-btn-quote{
     height: 28px;
     background: url(src/imgs/media/mail.png) no-repeat 100% ;
     background-size: contain;
+}
+.wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eaeef1;
+    opacity: 0.85;
+}
+.wrapper-social-media:not(:first-child):hover,
+ .btn-submit-subscribe:hover,
+ .btn-buy-main-poster-prints:hover, 
+ .btn-share-main-poster-prints:hover,
+ .btn-browse-posters:hover,
+ .btn-more-reasons:hover,
+ .btn-quote:hover,
+ .btns-tagline div:hover,
+ .menu-btn:hover,
+ .browse p:not(:first-child):hover,
+ .shop p:not(:first-child):hover{
+    cursor: pointer;
 }
