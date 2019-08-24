@@ -44,10 +44,12 @@
 }
 body {
     margin: 0 auto;
+    overflow-x: hidden;
 }
 .wrapper{
     max-width: 1668px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /*getting-part*/
@@ -493,6 +495,7 @@ div#active-btn-quote{
     left: 14%;
     font-family: Tw-Cen, sans-serif;
     font-size: 95px;
+    color: #ffffff;
     text-align: center;
     font-weight: bolder;
 }
@@ -502,6 +505,7 @@ div#active-btn-quote{
     left: 6.3%;
     font-family: Monsterrat-bold, sans-serif;
     font-size: 23px;
+    color: #ffffff;
     letter-spacing: 5px;
 }
 .btn-share-main-poster-prints{
@@ -510,6 +514,7 @@ div#active-btn-quote{
     right: 7.8%;
     font-family: Monsterrat-bold, sans-serif;
     font-size: 19px;
+    color: #ffffff;
     letter-spacing: 2px;
 }
 .btn-share-main-poster-prints img{
@@ -548,6 +553,7 @@ div#active-btn-quote{
     position: relative;
     background: url(src/imgs/poster-2.png) no-repeat 100% #f2f4f5;
     background-size: cover;
+    color: #ffffff;
 }
 .other-poster-prints-item:first-child .quote{
     width: 40%;
