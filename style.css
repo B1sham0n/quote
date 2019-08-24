@@ -1,0 +1,654 @@
+@font-face {
+    font-family: Monsterrat-bold; /* Гарнитура шрифта */
+    src: url(src/fonts/Montserrat-bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Monsterrat-regular; /* Гарнитура шрифта */
+    src: url(src/fonts/Monsterrat-regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Raleway-bold; /* Гарнитура шрифта */
+    src: url(src/fonts/Raleway-bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Raleway-thin; /* Гарнитура шрифта */
+    src: url(src/fonts/Raleway-thin.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Raleway-extralight; /* Гарнитура шрифта */
+    src: url(src/fonts/Raleway-extralight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Raleway-medium; /* Гарнитура шрифта */
+    src: url(src/fonts/Raleway-medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Raleway-light; /* Гарнитура шрифта */
+    src: url(src/fonts/Raleway-light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Raleway-regular; /* Гарнитура шрифта */
+    src: url(src/fonts/Raleway-regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Tw-Cen; /* Гарнитура шрифта */
+    src: url(src/fonts/Tw\ Cen\ MT\ Condensed\ Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: GreatLakes; /* Гарнитура шрифта */
+    src: url(src/fonts/Greatlakes.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Lato-bold; /* Гарнитура шрифта */
+    src: url(src/fonts/Lato-bold.ttf); /* Путь к файлу со шрифтом */
+}
+body {
+    margin: 0 auto;
+}
+.wrapper{
+    max-width: 1668px;
+    margin: 0 auto;
+}
+
+/*getting-part*/
+.getting-part{
+    height: 1190px;
+    background: url(src/imgs/getting-bcg.png) no-repeat #eae2d1;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: Monsterrat-bold, sans-serif;
+    padding: 55px 0 0 120px;
+}
+.site-name{
+    font-size: 35px;
+    letter-spacing: 7px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 3px;
+    padding: 26px 23px;
+}
+.menu-btn{
+    height: 20px;
+    width: 60px;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    padding: 7px 0;
+    margin: 13px 120px 0 0;
+}
+.menu-btn p{
+    line-height: 19px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin: 0;
+}
+.tagline{
+    height: 828px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 58px;
+    padding-top: 18px;
+}
+.title-tagline{
+    width: 100%;
+    height: 261px;
+    font-family: Raleway-thin, sans-serif;
+    font-size: 261px;
+    text-align: end;
+    letter-spacing: 28px;
+    color: #ffffff;
+    margin: 0;
+}
+.description-tagline{
+    width: 100%;
+    font-family: Raleway-bold, sans-serif;
+    font-size: 78px;
+    text-align: end;
+    letter-spacing: 7px;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px 51px 0 0;
+}
+.btns-tagline{
+    height: 92px;
+}
+.btns-tagline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns-tagline div{
+    height: 20px;
+    width: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: 0 14px;
+}
+#active-btn-tagline{
+    background-color: #ffffff;
+}
+
+/*description*/
+.description{
+    height: 615px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 91px 0;
+}
+.description .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.description h3, .description h2, .description p, .description span{
+    margin: 0;
+}
+.description h3{
+    font-weight: normal;
+    font-family: Raleway-extralight, sans-serif;
+    font-size: 70px;
+    letter-spacing: 0.7px;
+}
+.description h2{
+    font-family: Raleway-bold, sans-serif;
+    font-size: 71px;
+    letter-spacing: 1px;
+}
+.description-rights{
+    display: block;
+    font-family: Raleway-medium, sans-serif;
+    font-size: 24px;
+    padding: 39px 0px;
+}
+.description-line {
+    width: 96px;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+.comment{
+    width: 1096px;
+    font-family: Raleway-medium, sans-serif;
+    font-size: 23px;
+    line-height: 36px;
+    word-spacing: -0.2px;
+    word-break: break-all;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+.comment p:nth-child(2){
+   margin-top: 35px;
+}
+
+/*lecture*/
+.lecture{
+    height: 775px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lecture .quote-lecture{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #ffe9e2;
+}
+.lecture p{
+    width: 72%;
+    margin: 0;
+    padding: 0;
+}
+.quote-lecture .quote{
+    position: absolute;
+    bottom: 36%;
+    left: 12%;
+    font-family: Raleway-bold, sans-serif;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 1.3px;
+    word-spacing: 1.0px;
+}
+.quote-lecture .author-quote{
+    position: absolute;
+    top: 72%;
+    left: 12%;
+    font-family: Raleway-light, sans-serif;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+    margin-bottom: 187px;
+}
+.wrapper-btns-quote{
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 11.8%;
+}
+.btn-quote{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    background-color: #ffe9e2;
+    margin: 6px 6px;
+}
+div#active-btn-quote{
+    background-color: #000000;
+}
+.picture-lecture{
+    width: 50%;
+    overflow: hidden;
+    background-color: green;
+    background: linear-gradient(rgba(255,233,226,0.2), rgba(255,233,226,0.2)),  url(src/imgs/quote-img.png) no-repeat 100% bottom;
+    background-size: cover;
+}
+
+/*reasons*/
+.reasons{
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 314px;
+}
+.title-reasons{
+    width: 100%;
+    font-size: 70px;
+    font-family: Raleway-bold, sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 0.3px;
+}
+.title-reasons-line{
+    width: 96px;
+    height: 2px;
+    background-color: #000000;
+    margin-top: 37px;
+}
+.wrapper-reasons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 120px;
+}
+.wrapper-reasons-item{
+    width: 42.4%;
+    height: 300px;
+    border: 1px solid #eae9e7;
+    padding: 20px 65px 20px 60px;
+}
+.wrapper-reasons-item:nth-child(even){
+    width: 42.2%;
+    padding-left: 77px;
+    padding-right: 50px;
+    word-spacing: -0.1px;
+}
+.main-reason{
+    font-family: Raleway-bold, sans-serif;
+    font-size: 34px;
+    letter-spacing: 1.2px;
+}
+.descripton-reason{
+    font-family: Raleway-medium, sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.1px;
+    padding: 5px 0 14px 0;
+}
+.wrapper-reasons-item:nth-child(2) .descripton-reason{
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+}
+.author-reason{
+    font-family: Raleway-regular, sans-serif;
+    font-size: 24px;
+}
+.btn-more-reasons{
+    position: absolute;
+    bottom: 12.2%;
+    left: 41.3%;
+    width: 248px;
+    font-family: Raleway-bold, sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 19px 40px;
+}
+
+/*day-quote*/
+.day-quote{
+    background-color: red;
+    height: 284px;
+    color: #ffffff;
+    padding: 230px 0 270px 0;
+    background: url(src/imgs/day-quote-img.png) no-repeat 100% #eae2d1;
+    background-size: cover;
+}
+.description-day-quote, .title-day-quote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.title-day-quote{
+    /*width: 50%;*/
+    font-family: Raleway-bold, sans-serif;
+    font-size: 71px;
+    padding: 0 450px;
+}
+.description-day-quote{
+    font-family: Raleway-regular, sans-serif;
+    font-size: 24px;
+    padding: 75px 0;
+}
+.description-day-quote a{
+    color: #ffffff;
+}
+.description-day-quote a:visited{
+    color: #bebcb8;
+}
+
+/*poster-prints*/
+.poster-prints{
+    position: relative;
+    height: 1472px;
+    background-color: #f2f4f5;
+    padding: 109px 0 0 0;
+}
+.title-poster-prints{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway-bold, sans-serif;
+    font-size: 70px;
+    letter-spacing: 0.4px;
+}
+.title-poster-prints-line{
+    width: 97px;
+    height: 2px;
+    background-color: #000000;
+    margin-top: 34px;
+}
+.wrapper-poster-prints{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0 0px 0;
+}
+.main-poster-prints{
+    width: 71%;
+    height: 902px;
+    position: relative;
+    background: url(src/imgs/main-poster.png) no-repeat 100% #f2f4f5;
+    background-position-x: 18%;
+    background-size: cover;
+}
+.wrapper-tagline-main-poster-prints p{ 
+    margin: 12px 0 0 0;
+}
+.wrapper-tagline-main-poster-prints{
+    width: 70%;
+    position: absolute;
+    top: 23.3%;
+    left: 14%;
+    font-family: Tw-Cen, sans-serif;
+    font-size: 95px;
+    text-align: center;
+    font-weight: bolder;
+}
+.btn-buy-main-poster-prints{
+    position: absolute;
+    bottom: 3.5%;
+    left: 6.3%;
+    font-family: Monsterrat-bold, sans-serif;
+    font-size: 23px;
+    letter-spacing: 5px;
+}
+.btn-share-main-poster-prints{
+    position: absolute;
+    bottom: 3.5%;
+    right: 7.8%;
+    font-family: Monsterrat-bold, sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.btn-share-main-poster-prints img{
+    color: #ffffff;
+    transform: scale(1.25);
+    margin-left: 10px;
+}
+.other-poster-prints{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.other-poster-prints-item p{
+    margin: 0;
+    padding: 0;
+}
+.other-poster-prints-item{
+    width: 441px;
+    height: 51%;
+    margin: 0;
+    padding: 0;
+}
+.other-poster-prints-item:first-child{
+    position: relative;
+    width: 883px;
+    height: 49%;
+    background: url(src/imgs/poster-with-author.png) no-repeat 100% #f2f4f5;
+    background-size: cover;
+}
+.other-poster-prints-item:nth-child(2){
+   position: relative;
+   background: url(src/imgs/poster-1.png) no-repeat 70% #f2f4f5;
+   background-size: cover;
+}
+.other-poster-prints-item:nth-child(3){
+    position: relative;
+    background: url(src/imgs/poster-2.png) no-repeat 100% #f2f4f5;
+    background-size: cover;
+}
+.other-poster-prints-item:first-child .quote{
+    width: 40%;
+    position: absolute;
+    top: 22%;
+    left: 11%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 43px;
+    font-weight: bold;
+    font-style: italic;
+}
+.other-poster-prints-item:first-child .author{
+    position: absolute;
+    top: 49%;
+    left: 11%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.other-poster-prints-item:nth-child(2) .quote{
+    position: absolute;
+    font-family: GreatLakes, arial;
+    font-size: 35px;
+}
+.other-poster-prints-item:nth-child(2) .quote:first-child{
+    top: 19.5%;
+    left: 25%;
+}
+.other-poster-prints-item:nth-child(2) .quote:last-child{
+    top: 29%;
+    left: 27%;
+}
+.other-poster-prints-item:nth-child(3) .quote{
+    position: absolute;
+    font-family: Lato-bold, sans-serif;
+    font-size: 36px;
+}
+.other-poster-prints-item:nth-child(3) .quote:first-child{
+    top: 55.5%;
+    left: 36.5%;
+}
+.other-poster-prints-item:nth-child(3) .quote:last-child{
+    top: 65.5%;
+    left: 36.5%;
+    font-size: 43px;
+    font-weight: bolder;
+}
+.btn-browse-posters{
+    position: absolute;
+    bottom: 9%;
+    left: 41.2%;
+    font-family: Monsterrat-bold, sans-serif;
+    font-size: 23px;
+    letter-spacing: 3.3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px 27px;
+}
+
+/*info-box*/
+.info-box{
+    height: 645px;
+}
+.info-box .wrapper{
+    display: flex;
+    padding-top: 144px;
+}
+.info-box .wrapper p{
+    margin: 0;
+}
+.info-box .wrapper p:not(:first-child){
+    margin-top: 15px;
+}
+.shop, .browse, .contact, .subscribe{
+    font-family: Monsterrat-regular, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.1px;
+}
+.title-info-box{
+    font-family: Monsterrat-bold, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2.1px;
+    padding-bottom: 46px;
+}
+.browse{
+    width: 20%;
+}
+.shop{
+    width: 25.8%;
+}
+.contact{
+    width: 29.8%;
+}
+.subscribe{
+    width: 24.3%;
+}
+.phone-contact{
+    padding-top: 43px;
+}
+.subscribe p:first-child{
+    padding-bottom: 12px;
+}
+.subscribe p:nth-child(2){
+    width: 75%;
+}
+.input-email-subscribe{
+    width: 88%;
+    height: 44px;
+    font-size: 18px;
+    font-family: Monsterrat-regular, sans-serif;
+    letter-spacing: 2.3px;
+    border: none;
+    background-color: #f2f4f5;
+    padding: 0 25px;
+    margin-top: 40px;
+}
+.btn-submit-subscribe{
+    width: 85px;
+    font-size: 19px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 11px 32px;
+    margin-top: 5.8%;
+}
+
+/*footer*/
+.footer{
+    height: 106px;
+    background-color: #eaeef1;
+}
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+.wrapper-copyright{
+    font-family: Monsterrat-regular, sans-serif;
+    font-size: 18px;
+    letter-spacing: 4.0px;
+    word-spacing: -2px;
+}
+.wrapper-social-media{
+    display: flex;
+}
+.fb-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/fb.png) no-repeat 100% ;
+    background-size: contain;
+    margin-right: 35px;
+}
+.tw-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/tw.png) no-repeat 100% ;
+    background-size: contain;
+    margin-right: 28px;
+}
+.in-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/in.png) no-repeat 100% ;
+    background-size: contain;
+    margin-right: 28px;
+}
+.yt-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/yt.png) no-repeat 100% ;
+    background-size: contain;
+    margin-right: 38px;
+}
+.g-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/g.png) no-repeat 100% ;
+    background-size: contain;
+    margin-right: 20px;
+}
+.p-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/p.png) no-repeat 100% ;
+    background-size: contain;
+    margin-right: 30px;
+}
+.inst-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/inst.png) no-repeat 100% ;
+    background-size: contain;
+    margin-right: 30px;
+}
+.mail-media{
+    width: 28px;
+    height: 28px;
+    background: url(src/imgs/media/mail.png) no-repeat 100% ;
+    background-size: contain;
+}
