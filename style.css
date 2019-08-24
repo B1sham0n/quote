@@ -74,12 +74,14 @@ body {
     padding: 26px 23px;
 }
 .menu-btn{
+    position: absolute;
+    top: 68px;
+    right: 236px;
     height: 20px;
     width: 60px;
     border-top: 5px solid #ffffff;
     border-bottom: 5px solid #ffffff;
     padding: 7px 0;
-    margin: 13px 120px 0 0;
 }
 .menu-btn p{
     line-height: 19px;
@@ -144,6 +146,7 @@ body {
     height: 100%;
     background-color: #000000;
     opacity: 0.9;
+    z-index: 1;
 }
 .menu{
     display: flex;
@@ -188,13 +191,10 @@ body {
 }
 .btn-close-menu{
     position: absolute;
-    top: 1%;
-    right: 14%;
+    top: 10px;
+    right: 270px;
     font-family: Raleway-regular, sans-serif;
     color:#ffffff;
-}
-.btn-close-menu:hover{
- 
 }
 .btn-close-menu p{
     margin: 0;
@@ -209,11 +209,11 @@ body {
     letter-spacing: 2px;
 }
 .toggler{
-    width: 60px;
-    height: 60px;
+    width: 58px;
+    height: 58px;
     position: absolute;
-    top: 5%;
-    right: 12.25%;
+    top: 63px;
+    right: 236px;
     z-index: 0;
     opacity: 0;
 }
@@ -221,9 +221,9 @@ body {
     cursor: pointer;
 }
 .toggler:checked{
-    top: 1.5%;
-    right: 13.5%;
-    z-index: 1;
+    top: 20px;
+    right: 270px;
+    z-index: 2;
 }
 .toggler:checked ~ .wrapper-menu{
     display: block;
@@ -772,7 +772,6 @@ div#active-btn-quote{
  .btn-more-reasons:hover,
  .btn-quote:hover,
  .btns-tagline div:hover,
- .menu-btn:hover,
  .browse p:not(:first-child):hover,
  .shop p:not(:first-child):hover{
     cursor: pointer;
